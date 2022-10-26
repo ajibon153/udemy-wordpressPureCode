@@ -1,0 +1,148 @@
+[24-Oct-2022 04:29:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function have_post() in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-content\themes\fictionalUniversity\index.php:3
+Stack trace:
+#0 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Admini...')
+#2 C:\Users\Administrator\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\Admini...')
+#3 {main}
+  thrown in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-content\themes\fictionalUniversity\index.php on line 3
+[24-Oct-2022 04:30:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function have_post() in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-content\themes\fictionalUniversity\index.php:3
+Stack trace:
+#0 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Admini...')
+#2 C:\Users\Administrator\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\Admini...')
+#3 {main}
+  thrown in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-content\themes\fictionalUniversity\index.php on line 3
+[24-Oct-2022 07:42:10 UTC] PHP Warning:  get_headers() expects at least 1 parameter, 0 given in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-content\themes\fictionalUniversity\index.php on line 3
+[24-Oct-2022 07:42:10 UTC] PHP Stack trace:
+[24-Oct-2022 07:42:10 UTC] PHP   1. {main}() C:\Users\Administrator\Local Sites\fictional-university\app\public\index.php:0
+[24-Oct-2022 07:42:10 UTC] PHP   2. require() C:\Users\Administrator\Local Sites\fictional-university\app\public\index.php:17
+[24-Oct-2022 07:42:10 UTC] PHP   3. require_once() C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-blog-header.php:19
+[24-Oct-2022 07:42:10 UTC] PHP   4. include() C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-includes\template-loader.php:106
+[24-Oct-2022 07:42:10 UTC] PHP   5. get_headers() C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-content\themes\fictionalUniversity\index.php:3
+[25-Oct-2022 02:39:51 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-content\themes\fictionalUniversity\functions.php on line 8 and at least 2 expected in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-includes\plugin.php:400
+Stack trace:
+#0 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-content\themes\fictionalUniversity\functions.php(8): add_action('wp_enqueue_styl...')
+#1 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-settings.php(566): include('C:\\Users\\Admini...')
+#2 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-config.php(91): require_once('C:\\Users\\Admini...')
+#3 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-load.php(50): require_once('C:\\Users\\Admini...')
+#4 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Admini...')
+#5 C:\Users\ in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-includes\plugin.php on line 400
+[25-Oct-2022 02:39:58 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-content\themes\fictionalUniversity\functions.php on line 8 and at least 2 expected in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-includes\plugin.php:400
+Stack trace:
+#0 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-content\themes\fictionalUniversity\functions.php(8): add_action('wp_enqueue_scri...')
+#1 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-settings.php(566): include('C:\\Users\\Admini...')
+#2 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-config.php(91): require_once('C:\\Users\\Admini...')
+#3 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-load.php(50): require_once('C:\\Users\\Admini...')
+#4 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Admini...')
+#5 C:\Users\ in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-includes\plugin.php on line 400
+[25-Oct-2022 02:41:01 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-content\themes\fictionalUniversity\functions.php on line 8 and at least 2 expected in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-includes\plugin.php:400
+Stack trace:
+#0 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-content\themes\fictionalUniversity\functions.php(8): add_action('wp_enqueue_scri...')
+#1 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-settings.php(566): include('C:\\Users\\Admini...')
+#2 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-config.php(91): require_once('C:\\Users\\Admini...')
+#3 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-load.php(50): require_once('C:\\Users\\Admini...')
+#4 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Admini...')
+#5 C:\Users\ in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-includes\plugin.php on line 400
+[25-Oct-2022 02:41:08 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-content\themes\fictionalUniversity\functions.php on line 8 and at least 2 expected in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-includes\plugin.php:400
+Stack trace:
+#0 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-content\themes\fictionalUniversity\functions.php(8): add_action('wp_enqueue_scri...')
+#1 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-settings.php(566): include('C:\\Users\\Admini...')
+#2 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-config.php(91): require_once('C:\\Users\\Admini...')
+#3 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-load.php(50): require_once('C:\\Users\\Admini...')
+#4 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Admini...')
+#5 C:\Users\ in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-includes\plugin.php on line 400
+[25-Oct-2022 02:41:25 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-content\themes\fictionalUniversity\functions.php on line 8 and at least 2 expected in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-includes\plugin.php:400
+Stack trace:
+#0 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-content\themes\fictionalUniversity\functions.php(8): add_action('wp_enqueue_scri...')
+#1 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-settings.php(566): include('C:\\Users\\Admini...')
+#2 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-config.php(91): require_once('C:\\Users\\Admini...')
+#3 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-load.php(50): require_once('C:\\Users\\Admini...')
+#4 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Admini...')
+#5 C:\Users\ in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-includes\plugin.php on line 400
+[25-Oct-2022 02:41:26 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-content\themes\fictionalUniversity\functions.php on line 8 and at least 2 expected in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-includes\plugin.php:400
+Stack trace:
+#0 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-content\themes\fictionalUniversity\functions.php(8): add_action('wp_enqueue_scri...')
+#1 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-settings.php(566): include('C:\\Users\\Admini...')
+#2 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-config.php(91): require_once('C:\\Users\\Admini...')
+#3 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-load.php(50): require_once('C:\\Users\\Admini...')
+#4 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Admini...')
+#5 C:\Users\ in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-includes\plugin.php on line 400
+[25-Oct-2022 02:41:27 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-content\themes\fictionalUniversity\functions.php on line 8 and at least 2 expected in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-includes\plugin.php:400
+Stack trace:
+#0 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-content\themes\fictionalUniversity\functions.php(8): add_action('wp_enqueue_scri...')
+#1 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-settings.php(566): include('C:\\Users\\Admini...')
+#2 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-config.php(91): require_once('C:\\Users\\Admini...')
+#3 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-load.php(50): require_once('C:\\Users\\Admini...')
+#4 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Admini...')
+#5 C:\Users\ in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-includes\plugin.php on line 400
+[25-Oct-2022 02:42:05 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-content\themes\fictionalUniversity\functions.php on line 8 and at least 2 expected in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-includes\plugin.php:400
+Stack trace:
+#0 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-content\themes\fictionalUniversity\functions.php(8): add_action('wp_enqueue_scri...')
+#1 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-settings.php(566): include('C:\\Users\\Admini...')
+#2 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-config.php(91): require_once('C:\\Users\\Admini...')
+#3 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-load.php(50): require_once('C:\\Users\\Admini...')
+#4 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Admini...')
+#5 C:\Users\ in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-includes\plugin.php on line 400
+[25-Oct-2022 02:42:13 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-content\themes\fictionalUniversity\functions.php on line 8 and at least 2 expected in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-includes\plugin.php:400
+Stack trace:
+#0 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-content\themes\fictionalUniversity\functions.php(8): add_action('wp_enqueue_styl...')
+#1 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-settings.php(566): include('C:\\Users\\Admini...')
+#2 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-config.php(91): require_once('C:\\Users\\Admini...')
+#3 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-load.php(50): require_once('C:\\Users\\Admini...')
+#4 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Admini...')
+#5 C:\Users\ in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-includes\plugin.php on line 400
+[25-Oct-2022 02:42:14 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-content\themes\fictionalUniversity\functions.php on line 8 and at least 2 expected in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-includes\plugin.php:400
+Stack trace:
+#0 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-content\themes\fictionalUniversity\functions.php(8): add_action('wp_enqueue_styl...')
+#1 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-settings.php(566): include('C:\\Users\\Admini...')
+#2 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-config.php(91): require_once('C:\\Users\\Admini...')
+#3 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-load.php(50): require_once('C:\\Users\\Admini...')
+#4 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Admini...')
+#5 C:\Users\ in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-includes\plugin.php on line 400
+[25-Oct-2022 02:42:15 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-content\themes\fictionalUniversity\functions.php on line 8 and at least 2 expected in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-includes\plugin.php:400
+Stack trace:
+#0 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-content\themes\fictionalUniversity\functions.php(8): add_action('wp_enqueue_styl...')
+#1 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-settings.php(566): include('C:\\Users\\Admini...')
+#2 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-config.php(91): require_once('C:\\Users\\Admini...')
+#3 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-load.php(50): require_once('C:\\Users\\Admini...')
+#4 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Admini...')
+#5 C:\Users\ in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-includes\plugin.php on line 400
+[25-Oct-2022 02:46:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function p_footer() in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-content\themes\fictionalUniversity\footer.php:3
+Stack trace:
+#0 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-includes\template.php(770): require_once()
+#1 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-includes\template.php(716): load_template('C:\\Users\\Admini...', true, Array)
+#2 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-content\themes\fictionalUniversity\index.php(13): get_footer()
+#4 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Admini...')
+#5 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Admini...')
+#6 C:\Users in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-content\themes\fictionalUniversity\footer.php on line 3
+[26-Oct-2022 03:36:00 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_features' not found or invalid function name in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php on line 307
+[26-Oct-2022 03:36:00 UTC] PHP Stack trace:
+[26-Oct-2022 03:36:00 UTC] PHP   1. {main}() C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-admin\admin-ajax.php:0
+[26-Oct-2022 03:36:00 UTC] PHP   2. require_once() C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-admin\admin-ajax.php:22
+[26-Oct-2022 03:36:00 UTC] PHP   3. require_once() C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-load.php:50
+[26-Oct-2022 03:36:00 UTC] PHP   4. require_once() C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-config.php:91
+[26-Oct-2022 03:36:00 UTC] PHP   5. do_action() C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-settings.php:576
+[26-Oct-2022 03:36:00 UTC] PHP   6. WP_Hook->do_action() C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-includes\plugin.php:476
+[26-Oct-2022 03:36:00 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php:331
+[26-Oct-2022 03:36:49 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-content\themes\fictionalUniversity\functions.php on line 18
+[26-Oct-2022 03:37:09 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-content\themes\fictionalUniversity\functions.php on line 18
+[26-Oct-2022 03:53:12 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-content\themes\fictionalUniversity\page.php on line 51
+[26-Oct-2022 03:53:12 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-content\themes\fictionalUniversity\page.php on line 51
+[26-Oct-2022 03:53:12 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-content\themes\fictionalUniversity\page.php on line 51
+[26-Oct-2022 03:53:38 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-content\themes\fictionalUniversity\page.php on line 51
+[26-Oct-2022 03:53:39 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-content\themes\fictionalUniversity\page.php on line 51
+[26-Oct-2022 03:53:39 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-content\themes\fictionalUniversity\page.php on line 51
+[26-Oct-2022 03:53:41 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-content\themes\fictionalUniversity\page.php on line 51
+[26-Oct-2022 04:50:35 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-content\themes\fictionalUniversity\page.php on line 48
+[26-Oct-2022 04:51:06 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-content\themes\fictionalUniversity\page.php on line 48
+[26-Oct-2022 04:54:32 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-content\themes\fictionalUniversity\page.php on line 35
+[26-Oct-2022 07:40:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function p_nav_menu() in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-content\themes\fictionalUniversity\header.php:20
+Stack trace:
+#0 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-includes\template.php(770): require_once()
+#1 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-includes\template.php(716): load_template('C:\\Users\\Admini...', true, Array)
+#2 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-content\themes\fictionalUniversity\index.php(1): get_header()
+#4 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Admini...')
+#5 C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Admini...')
+#6 C:\Use in C:\Users\Administrator\Local Sites\fictional-university\app\public\wp-content\themes\fictionalUniversity\header.php on line 20
