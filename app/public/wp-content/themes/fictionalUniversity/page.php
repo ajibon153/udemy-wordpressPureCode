@@ -1,5 +1,6 @@
-<?php
+<!-- This file is for individual PAGE -->
 
+<?php
   get_header();
 
   while(have_posts()) {
